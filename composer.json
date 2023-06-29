@@ -1,0 +1,20 @@
+{
+  "name": "advans/php-api-boveda-xml",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Francisco Carribero",
+      "email": "francisco.carribero@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.4|^8.0",
+    "ext-json": "*",
+    "ext-curl": "*"
+  },
+  "autoload": {
+    "classmap": [
+      "src/"
+    ]
+  }
+}
